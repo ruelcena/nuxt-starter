@@ -1,0 +1,91 @@
+{
+  default_placeholders: {
+    "medium" : "Choose or Add a medium",
+    "source" : "Choose or Add a source",
+    "campaign" : "Choose or Add a campaign",
+    "content" : "Choose or Add a content",
+    "term" : "Choose or Add a term"
+  },
+  default_descriptions: {
+    "medium" : "...",
+    "source" : "...",
+    "campaign" : "...",
+    "content" : "...",
+    "term" : "..."
+  },
+  "default_presets" : {
+    "Bing Ads" : {
+      "description" : "cpc",
+      "medium" : "cpc",
+      "source" : "bing",
+      "term" : "{keyword}",
+      "placeholders": {
+        "campaign" : "Name of Product / Event",
+        "content" : "Name of clicked content element"
+      }
+    },
+    "Email" : {
+      "medium" : "email",
+      "source" : "linkedIn",
+      "placeholders": {
+        "campaign" : "Name of Campaign / Product / Event",
+        "content" : "Name of clicked content element",
+        "term" : "Name of newsletter segment"
+      }
+    },
+    "Facebook Organic" : {
+      "medium" : "social",
+      "source" : "facebook",
+      "placeholders": {
+        "campaign" : "",
+        "content" : "",
+        "term" : ""
+      }
+    },
+    "Facebook Ads" : {
+      "medium" : "cpc",
+      "source" : "facebook",
+      "placeholders": {
+        "campaign" : "",
+        "content" : "",
+        "term" : ""
+      }
+    },
+    "Google+" : {
+      "medium" : "social",
+      "source" : "google",
+      "placeholders": {
+        "campaign" : "",
+        "content" : "",
+        "term" : ""
+      }
+    },
+    "LinkedIn Organic" : {
+      "medium" : "social",
+      "source" : "linkedin",
+      "placeholders": {
+        "campaign" : "",
+        "content" : "",
+        "term" : ""
+      }
+    },
+    "LinkedIn Ads" : {
+      "medium" : "cpc",
+      "source" : "linkedIn",
+      "placeholders": {
+        "campaign" : "",
+        "content" : "",
+        "term" : ""
+      }
+    },
+    "Google Adwords" : {
+      "medium" : "cpc",
+      "source" : "google",
+      "term" : "{keyword}",
+      "placeholders": {
+        "campaign" : "",
+        "content" : "",
+      }
+    }
+  }
+}
