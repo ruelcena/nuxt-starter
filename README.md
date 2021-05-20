@@ -1,4 +1,4 @@
-# Nuxt Starter Template
+# Not maintained - Nuxt Starter Template
 
 > A template ready for the project
 > With Nuxt, Vue.js and Bootstrap
